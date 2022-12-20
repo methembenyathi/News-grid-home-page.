@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+.header{
+    padding: 10px;
+}
+.nav{
+    float: right;
+}
+.nav ul li{
+    list-style: none;
+}
+.nav ul li a{
+    text-decoration: none;
+    padding-inline: 10px;
+    color: black;
+}
+.grid{
+    margin: 10px auto;
+    max-width: 80%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows:auto auto ;
+}
+.grid img{
+    max-width: 100%;
+    grid-column: 1 /span 2;
+}
+button{
+    color: white;
+    padding: 10px;
+    background-color: orangered;
+    
+}
+aside{
+    grid-column: 3;
+    grid-row: 1/span 2;
+    background-color: black;
+    color:rgb(241, 239, 239);
+    padding: 10px;
+}
+aside p{
+    color: rgb(207, 204, 204);
+    font-family: sans-serif;
+}
+aside h6{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.grid2{
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    
+}
+.container{
+    display: flex;
+}
+
+.containergrid{
+    display:flex;
+    padding: 10px;
+}
+.containergrid img{
+    max-width: 100px;
+}
+.words{
+    padding: 10px;
+}
+.words h6{
+    font-size: 20px;
+}
+p1{
+    color: grey;
+    font-size: 25px;
+}
